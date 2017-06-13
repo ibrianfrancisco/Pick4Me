@@ -1,0 +1,54 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #eeeeee;
+}
+
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  text-align: center;
+}
+
+input {
+  padding: 2vw;
+  font-size: 4vw;
+  margin: 20px;
+}
+
+.wrapper {
+  font-size: 2vw;
+}
+
+h1 {
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+}
+
+ul > * {
+  text-decoration: none;
+  font-size: 3vw;
+  margin: 10px;
+  flex: 1;
+  text-transform: uppercase;
+}
+
+.choice {
+  font-size: 5vw;
+  margin: 10px;
+  text-transform: capitalize;
+}
+
+button {
+  padding: 20px;
+  border-radius: 10px;
+}
